@@ -128,7 +128,7 @@ def index():
             l['path'].split('_[')[1].split(']')[0])
         print '<td class="col-lg-1">{0}</td>'.format(l['flap'])
         if l['status'] is not None:
-            print '<td class="col-lg-1">{0}</td>'.format(l['status'])
+            print '<td class="col-lg-1">{0}</td>'.format(l['problem_status'])
         else:
             print '<td class="col-lg-1"></td>'
         print '<td class="col-lg-1">{0}</td>'.format(l['affected_item'])
